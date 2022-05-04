@@ -1,10 +1,11 @@
 
+import SideBar from './Components/SideBar';
 import './styles.css';
 
 function App() {
   return (
-    <div className="App">
-      Test
+    <div className="flex">
+      <SideBar />
     </div>
   );
 }

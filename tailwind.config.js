@@ -1,10 +1,16 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./App.js"
+    "./App.js",
+    "./Components/**/*.{html,js}",
+    "./styles.css"
   ],
   theme: {
-    extend: {},
-  },
+    fontFamily: {
+      display: ['IBM Plex Mono', 'Menlo', 'monospace'],
+      body: ['IBM Plex Mono', 'Menlo', 'monospace'],
+      extend: {},
   plugins: [],
+}
+  }
 }
