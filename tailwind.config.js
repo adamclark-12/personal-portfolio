@@ -7,6 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
+      h1Font:['Bebas Neue'],
       display: ['IBM Plex Mono', 'Menlo', 'monospace'],
       body: ['IBM Plex Mono', 'Menlo', 'monospace'],
       extend: {},
