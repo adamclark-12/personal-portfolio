@@ -6,6 +6,10 @@ module.exports = {
     "./styles.css"
   ],
   theme: {
+    // colors:{
+    //   // linkColor:['#FCDE0F'],
+    
+    // },
     fontFamily: {
       h1Font:['Bebas Neue'],
       display: ['IBM Plex Mono', 'Menlo', 'monospace'],
