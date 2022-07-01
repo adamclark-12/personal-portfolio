@@ -4,6 +4,7 @@ module.exports = {
     "./App.js",
     "./Components/**/*.{html,js}",
     "./styles.css"
+
   ],
   theme: {
     // colors:{
