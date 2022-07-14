@@ -10,7 +10,7 @@ const Homepage = () => {
         <h1 className="font-h1Font text-6xl text-center pt-20">
           Hello there <span className="italic  text-[#F7B023] ">I'm Adam</span>
         </h1>
-        <h2 className="m-10 text-4xl text-center">
+        <h2 className="font-h2Font m-10 text-4xl text-center">
           A web developer looking for work
         </h2>
       </header>

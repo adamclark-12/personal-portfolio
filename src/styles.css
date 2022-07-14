@@ -24,16 +24,4 @@ body {
     position: relative;
     padding-top: 200px;
   }
-  .gradient-color-text {
-    @apply bg-[#181123] bg-gradient-to-r from-[#f3ec78] to-[#af4261] 
-
-    /* Set the background size and repeat properties. */
-
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent; */;
-  }
 }
