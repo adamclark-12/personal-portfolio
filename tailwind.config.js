@@ -3,20 +3,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
     "./App.js",
     "./Components/**/*.{html,js}",
-    "./styles.css"
-
+    "./styles.css",
   ],
   theme: {
-    // colors:{
-    //   // linkColor:['#FCDE0F'],
-    
-    // },
     fontFamily: {
-      h1Font:['Bebas Neue'],
-      display: ['IBM Plex Mono', 'Menlo', 'monospace'],
-      body: ['IBM Plex Mono', 'Menlo', 'monospace'],
+      h1Font: ["Bebas Neue"],
+      h2Font: ["Josefin Sans"],
+      display: ["IBM Plex Mono", "Menlo", "monospace"],
+      body: ["IBM Plex Mono", "Menlo", "monospace"],
       extend: {},
-  plugins: [],
-}
-  }
-}
+      plugins: [],
+    },
+  },
+};

@@ -1,27 +1,39 @@
-body{
-    background-color:#586880;
+body {
+  /* background-color: black; */
+  background-image: url(/Users/lf/Documents/reactProjects/personal-website/src/Components/img/background.jpg);
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @layer components {
-    .sidebar-icon{
-        @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 shadow-lg
-        hover:text-gray-700 hover:bg-[#74A5A7] rounded-3xl hover:rounded-xl transition-all duration-200
-        ease-linear cursor-pointer
-}
-.sidebar-tooltip{
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 shadow-lg
+        hover:text-gray-700 hover:bg-[white] rounded-3xl hover:rounded-xl transition-all duration-200
+        ease-linear cursor-pointer;
+  }
+  .sidebar-tooltip {
     @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md text-gray-700 
-    bg-[#74A5A7] text-xs font-bold transition-all duration-100 scale-0 origin-bottom mt-28 -ml-10
+    bg-[white] text-xs font-bold transition-all duration-100 scale-0 origin-bottom mt-28 -ml-10;
+  }
 
-}
-body{
+  body {
     margin: 0;
-}
-.testDiv{
+  }
+  .testDiv {
     position: relative;
     padding-top: 200px;
-}
+  }
+  .gradient-color-text {
+    @apply bg-[#181123] bg-gradient-to-r from-[#f3ec78] to-[#af4261] 
 
+    /* Set the background size and repeat properties. */
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; */;
+  }
 }

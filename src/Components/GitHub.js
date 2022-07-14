@@ -1,5 +1,4 @@
-import { FaGithub, FaUser } from "react-icons/fa";
-import { BsArrowRightShort } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 import React from "react";
 import axios from "axios";
 
@@ -30,36 +29,34 @@ const GitHub = () => {
           <a href="https://github.com/adamclark-12"></a>
         </button>
       </h2>
-      <br></br>
+      <br />
       <p className="text-lg  text-center">
         Below are some screenshots and information on some of the current
-        projects that I'm working on.
+        projects that I'm working on
+        <br />
+        Click a project to be taken to the repository
       </p>
-      <section className="flex">
-        <div className="w-1/2 h-40 p-10px outline-dashed border-red-300  m-5">
-          {" "}
+      <section className="">
+        <div className="m-5 flex flex-row p-0 space-x-9 pl-10">
           {repos.map((repo) => (
-            <li key={repo.id}>
+            <li
+              className="list-none w-1/3 mt-10px mr-20px flex justify-center rounded-2xl  gradient-color-text hover:bg-[#74A5A7] hover:rounded-lg"
+              key={repo.id}
+            >
               <a href={repo.html_url}>
-                <h4>{repo.name}</h4>
-                <p>{repo.description}</p>
+                <h4 className="underline flex justify-center text-bold">
+                  {repo.name}
+                </h4>
+                <p className="p-10 mb-20px flex justify-center">
+                  {repo.description}
+                </p>
               </a>
             </li>
           ))}
-        </div>
-        <div className="w-2/5 h-40 p-10px outline-dashed border-red-300  m-5">
-          {" "}
-          Info
         </div>
       </section>
     </div>
   );
 };
-const SideBarIcon_2 = ({ icon, text = "tooltip" }) => (
-  <div className="sidebar-icon group">
-    {icon}
 
-    <span className="sidebar-tooltip group-hover:scale-100">{"GitHub"}</span>
-  </div>
-);
 export default GitHub;

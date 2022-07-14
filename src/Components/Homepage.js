@@ -6,13 +6,14 @@ import { MdWavingHand } from "react-icons/md";
 const Homepage = () => {
   return (
     <div className="absolute top-48 overflow-y-auto bottom-0 left-0 right-0 dark:text-slate-200">
-      <h1 className="font-h1Font text-8xl text-center">
-        Hello there <MdWavingHand className="inline" />
-      </h1>
-      <h2 className="text-6xl font-h1Font text-center">I'm Adam</h2>
-      <p className="m-10 text-xl text-center">
-        A web developer looking for work
-      </p>
+      <header>
+        <h1 className="font-h1Font text-6xl text-center pt-20">
+          Hello there <span className="italic  text-[#F7B023] ">I'm Adam</span>
+        </h1>
+        <h2 className="m-10 text-4xl text-center">
+          A web developer looking for work
+        </h2>
+      </header>
       <p className="m-10 text-xl text-center">
         <button>
           <FaGithub className="inline sidebar-icon hover:bg-[#F7B023]" />
