@@ -1,8 +1,6 @@
 import { BiHomeSmile } from "react-icons/bi";
 import { GrMail } from "react-icons/gr";
-import { FaGithub, FaUser } from "react-icons/fa";
-import { Route, link } from "react-router";
-import Homepage from "./Homepage";
+import { FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const SideBar = () => {
