@@ -1,15 +1,13 @@
 import { BiHomeSmile } from "react-icons/bi";
 import { GrMail } from "react-icons/gr";
-import { FaGithub, FaUser } from "react-icons/fa";
-import { Route, link } from "react-router";
-import Homepage from "./Homepage";
+import { FaGithub } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const SideBar = () => {
   return (
     <div
       className=" text-slate-500 bg-#586880 dark:text-slate-200 shadow-md shadow-[#586880]
-             top-2 flex flex-row items-center space-x-20 w-screen p-14 m-0 text-4xl fixed overflow-y-auto"
+             top-2 flex flex-row items-center space-x-20 w-screen p-10 m-0 text-4xl fixed overflow-y-auto"
     >
       {
         <NavLink to="/">
@@ -45,6 +43,7 @@ const SideBar = () => {
   );
 };
 
+/*Create the sidebar component with 2 paramaters for the icon and the tooltip text */
 const SideBarIcon = ({ icon, text }) => (
   <div className=" sidebar-icon group ">
     {icon}

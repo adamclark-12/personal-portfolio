@@ -9,8 +9,7 @@ module.exports = {
     fontFamily: {
       h1Font: ["Bebas Neue"],
       h2Font: ["Josefin Sans"],
-      display: ["IBM Plex Mono", "Menlo", "monospace"],
-      body: ["IBM Plex Mono", "Menlo", "monospace"],
+      pFont: ["Josefin Sans"],
       extend: {},
       plugins: [],
     },
