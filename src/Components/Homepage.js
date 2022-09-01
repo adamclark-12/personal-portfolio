@@ -32,12 +32,14 @@ const Homepage = () => {
         <p className="font-pFont m-10 text-xl text-center">
           And contact me using the contact page or my{" "}
           <span className="italic underline hover:bg-[#F7B023] hover:text-black">
-            <a href="www.linkedin.com/in/adam-clark-9a393b168">linkedIn </a>
+            <a href="https://www.linkedin.com/in/adam-clark-9a393b168/">
+              linkedIn{" "}
+            </a>
           </span>
           here
           <BsArrowRightShort className="inline" />
           <button>
-            <a href="www.linkedin.com/in/adam-clark-9a393b168"></a>
+            <a href="https://www.linkedin.com/in/adam-clark-9a393b168/"></a>
             <BsLinkedin className="inline hover:bg-[#F7B023] sidebar-icon" />
           </button>
         </p>

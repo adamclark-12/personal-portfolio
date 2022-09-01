@@ -8,7 +8,11 @@ const Contact = () => {
       <p className="font-pFont text-sm italic ml-[37rem]">
         Please fill out all fields.
       </p>
-      <form className="flex flex-col my-2 pt-10 ">
+      <form
+        action="https://formspree.io/f/mvoygyjp"
+        method="POST"
+        className="flex flex-col my-2 pt-10 "
+      >
         <div className=" shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
           <div className="-mx-3 md:flex mb-6 justify-center">
             <div className="md:w-1/2 px-3 mb-6 md:mb-0">
@@ -19,7 +23,7 @@ const Contact = () => {
                 Name
               </label>
               <input
-                className="font-pFont appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3 "
+                className="font-pFont appearance-none block w-full text-black border border-red rounded py-3 px-4 mb-3 "
                 id="form-name"
                 type="text"
                 placeholder="Name"
@@ -27,15 +31,16 @@ const Contact = () => {
             </div>
             <div className="md:w-1/2 px-3 mb-6 md:mb-0">
               <label
-                className="font-pFont block uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+                className="font-pFont block uppercase tracking-wide text-black text-xs font-bold mb-2"
                 htmlFor="form-email"
               >
                 Email
               </label>
               <input
-                className="font-pFont appearance-none block w-full bg-grey-lighter text-grey-darker border border-red rounded py-3 px-4 mb-3"
-                id="fomr-email"
+                className="font-pFont appearance-none block w-full text-black border border-red rounded py-3 px-4 mb-3"
+                id="form-email"
                 type="email"
+                name="email"
                 placeholder="Email"
               ></input>
             </div>
@@ -43,12 +48,13 @@ const Contact = () => {
           <div className="-mx-3 md:flex mb-6 flex justify-center items-center">
             <div>
               <label
-                className=" font-pFontblock uppercase tracking-wide text-grey-darker text-xs font-bold mb-2"
+                className=" font-pFontblock uppercase tracking-wide text-black text-xs font-bold mb-2"
                 htmlFor="Message"
               >
                 Message
               </label>
               <textarea
+                name="message"
                 type="text"
                 id="large-input"
                 placeholder="Your message here"
@@ -70,5 +76,6 @@ const Contact = () => {
       </form>
     </div>
   );
+  // made with formspree
 };
 export default Contact;
