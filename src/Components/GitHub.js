@@ -21,7 +21,7 @@ const GitHub = () => {
   }, []);
 
   return (
-    <div className="absolute top-48 overflow-y-auto bottom-0 left-0 right-0 dark:text-slate-200">
+    <div className="absolute top-48 overflow-y-auto bottom-0 left-0 right-0 text-slate-200">
       <h1 className="font-h1Font text-8xl  text-center ">GitHub page</h1>
       <h2 className="font-h2Font text-center pt-7 text-xl">
         Here is a link to my GitHub <BsArrowRightShort className="inline" />

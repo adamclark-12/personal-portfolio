@@ -9,7 +9,7 @@ const Contact = () => {
   }
   return (
     <form className="flex flex-col my-2 pt-10 " onSubmit={handleSubmit}>
-      <div className="absolute top-48 overflow-y-auto bottom-0 left-0 right-0 dark:text-slate-200">
+      <div className="absolute top-48 overflow-y-auto bottom-0 left-0 right-0 text-slate-200">
         <h1 className="font-h1Font text-8xl text-center">Contact page</h1>
         <p className="font-pFont text-sm italic ml-[37rem]">
           Please fill out all fields.

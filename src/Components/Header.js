@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <nav
-      className=" text-slate-500 bg-#586880 dark:text-slate-200 shadow-md shadow-[#586880]
+      className="  text-slate-200 shadow-md shadow-[#586880]
              top-2 flex flex-row items-center space-x-20 w-screen p-10 m-0 text-4xl sticky overflow-y-auto"
     >
       {

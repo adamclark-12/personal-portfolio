@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Homepage = () => {
   return (
-    <div className="overflow-y-auto bottom-0 left-0 right-0 dark:text-slate-200">
+    <div className="overflow-y-auto bottom-0 left-0 right-0 text-slate-200">
       <header>
         <h1 className="font-h1Font text-6xl text-center">
           Hello there.
