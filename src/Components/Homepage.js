@@ -1,7 +1,6 @@
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
 import Footer from "./Footer";
 
 const Homepage = () => {
@@ -19,10 +18,9 @@ const Homepage = () => {
       </header>
       <div className=" w-1/2 float-left">
         <p className="font-pFont m-10 text-xl text-center">
-          <button>
-            <a href="https://github.com/adamclark-12"></a>
+          <a href="https://github.com/adamclark-12">
             <FaGithub className="inline sidebar-icon hover:bg-[#F7B023]" />
-          </button>
+          </a>
           <BsArrowLeftShort className="inline" />
           You can find my current projects and work on {""}
           <span className="italic underline hover:bg-[#F7B023] hover:text-black">
@@ -38,10 +36,9 @@ const Homepage = () => {
           </span>
           here
           <BsArrowRightShort className="inline" />
-          <button>
-            <a href="https://www.linkedin.com/in/adam-clark-9a393b168/"></a>
+          <a href="https://www.linkedin.com/in/adam-clark-9a393b168/">
             <BsLinkedin className="inline hover:bg-[#F7B023] sidebar-icon" />
-          </button>
+          </a>
         </p>
       </div>
       <h2 className="text-center font-h2Font m-10 text-2xl">

@@ -25,10 +25,9 @@ const GitHub = () => {
       <h1 className="font-h1Font text-8xl  text-center ">GitHub page</h1>
       <h2 className="font-h2Font text-center pt-7 text-xl">
         Here is a link to my GitHub <BsArrowRightShort className="inline" />
-        <button>
+        <a href="https://github.com/adamclark-12">
           <FaGithub className="inline sidebar-icon hover:bg-[#F7B023]" />
-          <a href="https://github.com/adamclark-12"></a>
-        </button>
+        </a>
       </h2>
       <br />
       <p className="font-pFont text-lg  text-center pb-10">
