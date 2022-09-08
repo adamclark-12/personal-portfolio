@@ -38,13 +38,13 @@ const Contact = () => {
             </div>
             <div className="md:w-1/2 px-3 mb-6 md:mb-0">
               <label
-                className="font-pFont block uppercase tracking-wide text-black text-xs font-bold mb-2"
+                className="font-pFont block uppercase tracking-wide  text-xs font-bold mb-2"
                 htmlFor="form-email"
               >
                 Email
               </label>
               <input
-                className="font-pFont appearance-none block w-full text-black border border-red rounded py-3 px-4 mb-3"
+                className="font-pFont appearance-none block w-full border border-red rounded py-3 px-4 mb-3"
                 id="form-email"
                 type="email"
                 name="email"
@@ -60,7 +60,7 @@ const Contact = () => {
           <div className="-mx-3 md:flex mb-6 flex justify-center items-center">
             <div>
               <label
-                className=" font-pFontblock uppercase tracking-wide text-black text-xs font-bold mb-2"
+                className=" font-pFontblock uppercase tracking-wide text-xs font-bold mb-2"
                 htmlFor="Message"
               >
                 Message
