@@ -21,22 +21,24 @@ const GitHub = () => {
   }, []);
 
   return (
-    <div className="absolute top-48 overflow-y-auto bottom-0 left-0 right-0 text-slate-200">
-      <h1 className="font-h1Font text-8xl  text-center ">GitHub page</h1>
-      <h2 className="font-h2Font text-center pt-7 text-xl">
-        Here is a link to my GitHub <BsArrowRightShort className="inline" />
-        <a href="https://github.com/adamclark-12">
-          <FaGithub className="inline sidebar-icon hover:bg-[#F7B023]" />
-        </a>
-      </h2>
-      <br />
-      <p className="font-pFont text-lg  text-center pb-10">
-        Below are some screenshots and information on some of the current
-        projects that I'm working on
+    <div className=" top-48 bottom-0 left-0 right-0 text-slate-200">
+      <header>
+        <h1 className="font-h1Font text-8xl  text-center ">GitHub page</h1>
+        <h2 className="font-h2Font text-center pt-7 text-xl">
+          Here is a link to my GitHub <BsArrowRightShort className="inline" />
+          <a href="https://github.com/adamclark-12">
+            <FaGithub className="inline sidebar-icon hover:bg-[#F7B023]" />
+          </a>
+        </h2>
         <br />
-        Click a project to be taken to the source code{" "}
-        <span className="italic font-pFont">(Pictures coming soon)</span>
-      </p>
+        <p className="font-pFont text-lg  text-center pb-10">
+          Below are some screenshots and information on some of the current
+          projects that I'm working on
+          <br />
+          Click a project to be taken to the source code{" "}
+          <span className="italic font-pFont">(Pictures coming soon)</span>
+        </p>
+      </header>
       <section>
         {/* This section uses the repos and displays them to the page */}
         <div className="font-pFont m-5 grid grid-flow-row-dense grid-cols-3 grid-rows-3">

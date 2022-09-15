@@ -4,10 +4,11 @@ import { FaGithub } from "react-icons/fa";
 
 const Homepage = () => {
   return (
-    <div className="overflow-y-auto bottom-0 left-0 right-0 text-slate-200">
+    <div className=" bottom-0 left-0 right-0 text-slate-200">
       <header>
         <h1 className="font-h1Font text-6xl text-center">
           Hello there.
+          <br />
           <span className="italic  text-[#F7B023] "> I'm Adam.</span>
         </h1>
         <h2 className="font-h2Font mt-10 mb-20 text-4xl text-center">

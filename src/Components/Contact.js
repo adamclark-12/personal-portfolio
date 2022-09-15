@@ -9,7 +9,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("mvoygyjp");
   if (state.succeeded) {
     return (
-      <p className="text-slate-200 text-center content-center font-pFont text-xl mt-40">
+      <p className="text-slate-200 text-center content-center font-pFont text-xl mt-40 ">
         Thank you for getting in touch, I will get back to you as soon as I can!
         <br />
         <br />
@@ -26,12 +26,13 @@ const Contact = () => {
   }
   return (
     <form className="flex flex-col my-2 pt-10 " onSubmit={handleSubmit}>
-      <div className="absolute top-48 overflow-y-auto bottom-0 left-0 right-0 text-slate-200">
-        <h1 className="font-h1Font text-8xl text-center">Contact page</h1>
-        <p className="font-pFont text-sm italic text-center">
-          Please fill out all fields.
-        </p>
-
+      <div className="absolute top-48 bottom-0 left-0 right-0 text-slate-200">
+        <header>
+          <h1 className="font-h1Font text-8xl text-center">Contact page</h1>
+          <p className="font-pFont text-sm italic text-center">
+            Please fill out all fields.
+          </p>
+        </header>
         <div className=" shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col my-2">
           <div className="-mx-3 md:flex mb-6 justify-center">
             <div className="md:w-1/2 px-3 mb-6 md:mb-0">
