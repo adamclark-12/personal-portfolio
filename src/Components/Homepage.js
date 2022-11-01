@@ -23,13 +23,13 @@ const Homepage = () => {
           </a>
           <BsArrowLeftShort className="inline" />
           You can find my current projects and work on {""}
-          <span className="italic underline hover:bg-[#F7B023] hover:text-black">
+          <span className="italic underline hover:bg-[#F7B023] hover:rounded-xl hover:text-black">
             <a href="https://github.com/adamclark-12"> GitHub</a>
           </span>
         </p>
         <p className="font-pFont m-10 text-xl text-center">
           And contact me using the contact page or my{" "}
-          <span className="italic underline hover:bg-[#F7B023] hover:text-black">
+          <span className="italic underline hover:bg-[#F7B023] hover:rounded-xl hover:text-black">
             <a href="https://www.linkedin.com/in/adam-clark-9a393b168/">
               linkedIn{" "}
             </a>

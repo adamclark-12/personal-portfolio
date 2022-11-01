@@ -2,7 +2,7 @@ import { FaGithub } from "react-icons/fa";
 import { BsArrowRightShort } from "react-icons/bs";
 import React from "react";
 import axios from "axios";
-
+import ImageSlider from "./ImageSlider";
 const GitHub = () => {
   const [repos, setRepos] = React.useState([]);
   React.useEffect(() => {
@@ -21,7 +21,7 @@ const GitHub = () => {
   }, []);
 
   return (
-    <div className=" top-48 bottom-0 left-0 right-0 text-slate-200">
+    <div className=" bottom-0 left-0 right-0 text-slate-200">
       <header>
         <h1 className="font-h1Font text-8xl  text-center ">GitHub page</h1>
         <h2 className="font-h2Font text-center pt-7 text-xl">
@@ -31,20 +31,23 @@ const GitHub = () => {
           </a>
         </h2>
         <br />
-        <p className="font-pFont text-lg  text-center pb-10">
+        <p className="font-pFont text-lg  text-center pb-10 mb-16">
           Below are some screenshots and information on some of the current
           projects that I'm working on
           <br />
           Click a project to be taken to the source code{" "}
-          <span className="italic font-pFont">(Pictures coming soon)</span>
         </p>
       </header>
+      <section className="flex justify-items-center justify-center overflow-hidden ">
+        <ImageSlider className="" />
+      </section>
       <section>
+        <h1 className="font-h1Font text-8xl  text-center ">Projects</h1>
         {/* This section uses the repos and displays them to the page */}
-        <div className="font-pFont m-5 grid grid-flow-row-dense grid-cols-3 grid-rows-3">
+        <div className="font-pFont m-5 grid grid-flow-row-dense grid-cols-3 grid-rows-3 ">
           {repos.map((repo) => (
             <li
-              className="flex justify-center rounded-2xl hover:text-black hover:bg-[#F7B023] hover:rounded-lg"
+              className="flex justify-center rounded-2xl hover:text-white hover:rounded-lg border-2 border-amber-500"
               key={repo.id}
             >
               <a href={repo.html_url}>

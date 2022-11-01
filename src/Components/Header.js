@@ -42,7 +42,7 @@ const Header = () => {
 
 /*Create the sidebar component with 2 paramaters for the icon and the tooltip text */
 const SideBarIcon = ({ icon, text }) => (
-  <div className=" sidebar-icon group">
+  <div className=" sidebar-icon group sticky">
     {icon}
     <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </div>
